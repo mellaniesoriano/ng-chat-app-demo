@@ -19,4 +19,4 @@ app.use((req, res, next) => {
 app.use('/', api);
 app.set('port', PORT);
 
-app.listen(PORT, () => console.log(`Running on port ${port}`));
+app.listen(PORT, () => console.log(`Running on port ${PORT}`));
